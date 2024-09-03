@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EDECE8;
+}
+
+header {
+    background: linear-gradient(#4e2a27, #ad6f6b);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    margin: 0;
+}
+
+header .logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 18px;
+}
+
+header .user-options {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+header .user-options a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.promo-banner {
+    background: linear-gradient(#4e2a27, #EDECE8);
+    color: #000;
+    font-family: 'Serif', serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ad6f6b;
+    border-radius: 5px;
+}
+
+footer {
+    background: linear-gradient(#ad6f6b, #4e2a27);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    margin: 0;
+}
+
+.back-to-top {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
